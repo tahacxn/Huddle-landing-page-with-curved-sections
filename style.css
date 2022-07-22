@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 18px;
+}
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex>div {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.box-img {
+    width: 80%;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+
+    align-items: center;
+    padding: 60px 0;
+}
+
+.btn {
+    font-weight: 600;
+}
+
+.btn-1 {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+}
+
+.btn-1:hover {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+
+h1 {
+    font-size: 44px;
+    margin-top: 5rem;
+}
+
+.subtitle {
+    width: 45%;
+    margin: 30px auto;
+}
+
+.btn-2 {
+    padding: 20px 80px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+}
+
+.btn-2:hover {
+    background-color: #fff;
+    color: hsl(322, 100%, 66%);
+}
+
+.content-img {
+    margin: 60px 0;
+}
+
+
+.cards {
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-2 {
+    max-width: 250px;
+}
+
+.card-2 p {
+    text-align: center;
+}
+
+.cards h2 {
+    font-size: 80px;
+}
+
+.box {
+    align-items: center;
+    gap: 5rem;
+}
+
+.box h3 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.box-1,
+.box-3 {
+
+    background-color: hsl(207, 100%, 98%);
+
+}
+
+.up {
+    background-color: #fff;
+    display: block;
+}
+
+.curve {
+    display: block;
+    transform: rotate(180deg);
+    background-color: #fff;
+}
+
+.community {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.community h2 {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.bottom-curve {
+    background-color: #fff;
+    display: block;
+}
+
+.gap {
+    gap: 5rem;
+}
+
+.text-area {
+    max-width: 400px;
+}
+
+
+
+.bottom-logo {
+    padding: 20px 0;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 8% 92%;
+    row-gap: 1rem;
+    padding-top: 30px;
+
+}
+
+.social-icons {
+    padding-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons i:hover {
+    color: #0099ff;
+}
+
+.input-area {
+    max-width: 430px;
+}
+
+.input-area p {
+    padding: 20px 0;
+}
+
+input {
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.btn-3 {
+    background-color: hsl(322, 100%, 66%);
+    padding: 9px 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid hsl(322, 100%, 66%);
+}
+
+.btn-3:hover {
+    color: hsl(322, 100%, 66%);
+    background-color: hsl(192, 100%, 9%);
+}
+
+@media only screen and (max-width:768px) {
+    .cards {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        width: 100%;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box1,
+    .box3 {
+        flex-direction: column-reverse;
+    }
+
+    .gap {
+        flex-direction: column-reverse;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .btn-3 {
+        float: right;
+        margin-top: 15px;
+    }
+}
